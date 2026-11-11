@@ -7,7 +7,7 @@ class Coupon:
         return 0
 
 # 10% 할인 쿠폰
-class PercentCoupon(Coupon)
+class PercentCoupon(Coupon):
     #할인율과 최대 할인율 적용
     def __init__(self, rate, max_discount):
         super().__init__("쿠폰이름")
